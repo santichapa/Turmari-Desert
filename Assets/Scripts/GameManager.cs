@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public bool isGameOver = false;
     public int score = 0;
 
+    [Header("Script References")]
+    public GameUIManager uiManager;
+
     private void Awake()
     {
         if (Instance == null)
@@ -41,6 +44,11 @@ public class GameManager : MonoBehaviour
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(true);
+        }
+
+        if (uiManager != null) 
+        {
+            uiManager.DisplayFinalScore();
         }
 
         // 2. Stop time (pauses physics and movement)

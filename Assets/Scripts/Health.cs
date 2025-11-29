@@ -8,9 +8,7 @@ public class Health : MonoBehaviour
 
     private float currentHealth;
 
-    // Optional: Event for external scripts (like UI or Game Manager) to subscribe to
     public event System.Action<float> OnHealthChanged;
-    public event System.Action OnDeath;
 
     void Start()
     {
