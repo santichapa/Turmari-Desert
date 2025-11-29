@@ -1,30 +1,36 @@
 # Overview
 
-This is my first complete Unity project that includes
+This is my first complete Unity project that includes sprites, scripts, animations, and audio.
 
-{Provide a description the game that you wrote. Describe how to play your game.}
+In the game you are a small potato (for now) that is hunted by demons.You can move around with the `Arrow Keys` or `WASD`. You will see a sword at the beggining that you can pick up with `E` and drop with `Q`. When you grab the sword just attack with `LMB`.
 
-{Describe your purpose for writing this software.}
+I wanted to explore a game framework and stat creating my own ideas as games, this is the purpose of all this labor.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Turmari Desert Demo Video](https://www.loom.com/share/da0143f8c4304c2bbb5b59e99078e68e)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Tools Used:
+- Unity
+- Visual Studio
+- GitHub Copilot
+- Gemini
+- Gimp
+- Paint
 
-{Describe the programming language that you used and any libraries.}
+Programming Language: C#
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Unity Documentation](https://docs.unity3d.com/2022.3/Documentation/Manual/Unity2D.html)
+* [YouTube Tutorials](https://www.youtube.com/watch?v=1E0w-YKQnd8&list=PL0eyrZgxdwhxnxfnzbmmB13ba7kv2yXuW)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Design a main menu
+* Add more animations
+* Add more weapons and enemies
+* Improve sprites
+* Add more sound effects
+* Improve eney AI
+* Implement a deeper story
